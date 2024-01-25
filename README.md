@@ -36,6 +36,7 @@ You can even brand the posts with your own Instagram handle, to prevent content 
 If you want to generate 1000 posts in seconds, so that you do not have to worry about content creation for the next 3 years, you can simply use this software.
 
 Example of a generated Instagram post:
+
 ![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/9bafd87537acef1f05bb3b98450d5e4c2e436707/GeneratedInstagramPostExample.jpg)
 
 ___
