@@ -3,7 +3,7 @@ ___
 ## Multithreaded Sudoku Solver
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Multithreaded-Sudoku-Solver)
 
-This project was made with Java (Libraries: Concurrent, Arraylist).
+This project was made with <b>Java (Libraries: Concurrent, Arraylist)</b>.
 
 This software takes a Sudoku board as an input (array of numbers from 1 to 9, with 0's representing empty cells), solves the board through a recursive algorithm and prints the result.
 
@@ -23,7 +23,7 @@ ___
 ## Commercial Bulk Instagram Post Generator
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Commercial-Bulk-Instagram-Post-Generator)
 
-This project was made with Java (Libraries: AWT, I/O, Graphics).
+This project was made with <b>Java (Libraries: AWT, I/O, Graphics)</b>.
 
 This software takes into input a folder filled with images (backgrounds for posts), and an array of strings with the text to add to each post.
 
@@ -43,7 +43,7 @@ ___
 ## Image Cryptography Tool
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
 
-This project was made with Python (Libraries: PIL, NumPy).
+This project was made with <b>Python (Libraries: PIL, NumPy)</b>.
 
 This software uses bitwise operations to cloak a given image within the image information of another image, making it nearly invisible to unsuspecting parties.
 
