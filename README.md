@@ -39,6 +39,11 @@ Example of a generated Instagram post:
 
 ![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/9bafd87537acef1f05bb3b98450d5e4c2e436707/GeneratedInstagramPostExample.jpg)
 
+A REST API version of this program has also been created to practice using Spring Boot and Thymeleaf.
+
+The REST API features a front-end which accepts a String and an image as inputs.
+
+The API adds the text to the image provided, and returns the processed image to the user on the front end.
 ___
 ## Image Cryptography Tool
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
