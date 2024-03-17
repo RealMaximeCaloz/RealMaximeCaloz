@@ -81,3 +81,26 @@ Example of the hidden image extracted from the combined image:
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
 However, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
+
+___
+## TurboSpeed - Infinite Scrolling Racing Game
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/TurboSpeed/tree/master)
+
+This project was made with <b>Python (Library: Pygame)</b>.
+
+TurboSpeed is an engaging and addictive arcade-style infinite scrolling racing game developped with Python and the Pygame library.
+
+In TurboSpeed, the player controls a car speeding down a dynamically-scrolling road, with the objective of avoiding boulders for as long as possible. As time goes on, the car moves faster and faster, thus increasing the difficulty.
+
+Down below, you can see a screenshot of the gameplay.
+
+![gameplay](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/gameplay.png)
+
+
+Here is a screenshot of the TurboSpeed title screen.
+
+![title screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/title_screen.png)
+
+Down below, you can find a screenshot of the TurboSpeed game over screen (and my high score!).
+
+![game over screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/game_over_screen.png)
