@@ -51,6 +51,41 @@ The API adds the text to the image provided, and returns the processed image to 
 ![api_outputs](https://github.com/RealMaximeCaloz/Portfolio/blob/17861c2ebc76d13eea9eb51ff4c8d721b5c5d1b0/pic2_rest_api.png)
 
 ___
+## Full-Stack License Manager Web App
+
+This project was made with Javascript (React, Node, Express), SQLite, HTML & CSS.
+
+The License Manager web app is meant to be a platform where clients of a software company can login to view, purchase or extend their access to software licenses.
+
+The License Manager currently has the following features:
+-	User login (with verification of inputs and feedback to the user)
+-	License Manager Dashboard with dynamically rendered content pulled from the database tables, depending on who is logged in
+-	Simulated credit card payment to buy a license (with input verification)
+-	Unique License Key Generator in the backend (with keygen rules to make guessing license keys very difficult)
+-	Verification of the validity of input license keys
+-	Managing/Manipulation of data and accesses in the database tables
+
+Down below, you can see a screenshot of the login page.
+
+![login](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic1.png)
+
+
+Here is a screenshot of the License Manager's Dashboard:
+
+![dashboard](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic2.png)
+
+The user's first name and profile picture is dynamically generated based on who is logged in, as well as all license data in the dashboard.
+
+Down below, you can find a screenshot of the License Manager's Popup to purchase a new license or redeem an externally-obtained license.
+
+![Purchase Popup](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic3.png)
+
+More features will later be added such as:
+-	Sign up feature
+-	Improved security features
+-	Ability to change user profile picture
+-	Stripe integration for payments
+___
 ## Image Cryptography Tool
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Image-Cryptography-Tool)
 
@@ -104,3 +139,4 @@ Here is a screenshot of the TurboSpeed title screen.
 Down below, you can find a screenshot of the TurboSpeed game over screen (and my high score!).
 
 ![game over screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/game_over_screen.png)
+
