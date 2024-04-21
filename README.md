@@ -59,11 +59,12 @@ The License Manager web app is meant to be a platform where clients of a softwar
 
 The License Manager currently has the following features:
 -	User login (with verification of inputs and feedback to the user)
+-	Sign Up (with verification of inputs)
 -	License Manager Dashboard with dynamically rendered content pulled from the database tables, depending on who is logged in
+-	Ability to change user profile picture
 -	Simulated credit card payment to buy a license (with input verification)
 -	Unique License Key Generator in the backend (with keygen rules to make guessing license keys very difficult)
 -	Verification of the validity of input license keys
--	Managing/Manipulation of data and accesses in the database tables
 
 Down below, you can see a screenshot of the login page.
 
@@ -81,9 +82,7 @@ Down below, you can find a screenshot of the License Manager's Popup to purchase
 ![Purchase Popup](https://github.com/RealMaximeCaloz/Portfolio/blob/5b84cdf878e426b75ab4dd23a3cd32d08442b9c3/license_manager_pic3.png)
 
 More features will later be added such as:
--	Sign up feature
 -	Improved security features
--	Ability to change user profile picture
 -	Stripe integration for payments
 ___
 ## Image Cryptography Tool
