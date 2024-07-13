@@ -1,5 +1,24 @@
 # Portfolio
 ___
+## Car Database Web App
+[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/car-database-app)
+
+This project is a database web app which visually shows off the various specs of different cars, with the help of dynamically-resizing progress bars.
+The wider the bar, the better that particular spec of the car is.
+
+Down below, you can see screenshots of this car database web app in full glory, thanks to its visual appeal.
+
+You can use the left and right triangular buttons to navigate between the specs of various cars.
+
+![Idle UI](https://github.com/RealMaximeCaloz/car-database-app/blob/1b28bab5db43eb5d66e3555cc5694450c1555b8d/screenshots/car_db_idle_ui.png)
+
+If you would like even more control, you may click the title banner in the middle to make a drop down menu appear. From this menu, you can choose to display whichever car you wish.
+
+![Drop down menu](https://github.com/RealMaximeCaloz/car-database-app/blob/1b28bab5db43eb5d66e3555cc5694450c1555b8d/screenshots/car_db_drop_down_menu.png)
+
+This project was made with <b>HTML, CSS, JavaScript (node, express)</b>.
+
+___
 ## Multithreaded Sudoku Solver
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/Multithreaded-Sudoku-Solver)
 
