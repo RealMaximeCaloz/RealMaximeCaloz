@@ -35,6 +35,33 @@ This project was made with **Go (Gin, SQLite, OpenAI API, Qdrant, Stripe)** on t
 
 ---
 
+## Health Reminder Tool for Desk Workers
+
+This project is a desktop app built for people who spend long hours at a computer. It nudges you to protect your eyes, posture, and blink often enough with customizable timed reminders that run in the background while you work.
+
+Three reminder types keep desk work healthier over the day: reminders to look away from the screen (eye breaks), to change your seating position (stand reminders), and a subtle bottom-right overlay that encourages you to blink regularly (auto-dismisses after a few seconds). You can start and stop reminders from the dashboard, tune each reminder’s interval, and optionally launch the app automatically when your machine boots, so you don't need to think about it.
+
+The app tracks all-time reminder counts and how often you follow through versus dismiss prompts, with metrics stored locally and synced to the cloud for backup. Settings persist on the device and sync to your account. Sign-in uses email and password; new users get a free trial, with subscription management handled on a companion website via Stripe.
+
+Down below, you can see screenshots of the Health Reminder Tool for Desk Workers:
+
+![Health Reminder Tool dashboard](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/health-reminder-tool-dashboard.png)
+
+![Health Reminder Tool settings and reminder popup](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/health-reminder-tool-settings-and-reminder.png)
+
+The Health Reminder Tool for Desk Workers currently includes:
+
+- Email/password authentication with cloud-backed user accounts on Supabase
+- Eye, stand, and blink reminders with customizable intervals and on/off toggles
+- Reminder popups and a lightweight blink overlay
+- Dashboard with reminder metrics and advice
+- Settings page for auto-launch and reminder-specific parameters
+- Local settings and metrics with cloud sync for persistence across devices
+
+This project was made with **Electron JS**, **HTML, CSS, and JavaScript**, **Supabase**, and **Stripe**.
+
+---
+
 ## Car Database Web App
 
 [Click here to view this project's code repository](https://github.com/RealMaximeCaloz/car-database-app)
