@@ -12,7 +12,7 @@ The platform is split across two repositories: a Go backend that handles authent
 
 Down below, you can see screenshots of the AI-Powered Learning Platform:
 
-![AI-Powered Learning Platform](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/ai-powered-learning-platform.png)
+![AI-Powered Learning Platform](/screenshots/ai-powered-learning-platform.png)
 
 On the backend, courses are built asynchronously through a multi-step pipeline. The system researches each topic submitted by the user with web searches, indexing scraped content in a Qdrant vector database for retrieval-augmented generation (RAG), and uses OpenAI API with RAG to produce a full course, complete with units, lessons, and micro-lessons, each with text content, optional Mermaid diagrams, and quizzes. User progress is tracked in SQLite with XP rewards, level progression, daily streaks, and completion state at every level of the course tree. The backend also handles Google OAuth login, JWT sessions, Stripe subscriptions and webhooks, rate limiting, and Swagger documentation.
 
@@ -45,9 +45,9 @@ The app tracks all-time reminder counts and how often you follow through versus 
 
 Down below, you can see screenshots of the Health Reminder Tool for Desk Workers:
 
-![Health Reminder Tool dashboard](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/health-reminder-tool-dashboard.png)
+![Health Reminder Tool dashboard](/screenshots/health-reminder-tool-dashboard.png)
 
-![Health Reminder Tool settings and reminder popup](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/health-reminder-tool-settings-and-reminder.png)
+![Health Reminder Tool settings and reminder popup](/screenshots/health-reminder-tool-settings-and-reminder.png)
 
 The Health Reminder Tool for Desk Workers currently includes:
 
@@ -93,7 +93,7 @@ This software takes a Sudoku board as an input (array of numbers from 1 to 9, wi
 
 An example of an initial Sudoku board to solve:
 
-![starting board](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/startingboard.png)
+![starting board](screenshots/startingboard.png)
 
 If the board is unsolvable, that information will be printed for the user.
 
@@ -101,7 +101,7 @@ A new ExecutorService job is submitted for each number which would be a valid gu
 
 The Sudoku board is solved very quickly, even if it is near-impossible to solve for humans:
 
-![final board](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/finalboard.png)
+![final board](screenshots/finalboard.png)
 
 ---
 
@@ -123,17 +123,17 @@ If you want to generate 1000 posts in seconds, so that you do not have to worry 
 
 Example of a generated Instagram post:
 
-![generated post example](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/GeneratedInstagramPostExample.jpg)
+![generated post example](screenshots/GeneratedInstagramPostExample.jpg)
 
 A [REST API version](https://github.com/RealMaximeCaloz/REST_API) of this program has also been created to practice using Spring Boot and Thymeleaf.
 
 The REST API features a front-end which accepts a String and an image as inputs.
 
-![api_inputs](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/pic1_rest_api.png)
+![api_inputs](screenshots/pic1_rest_api.png)
 
 The API adds the text to the image provided, and returns the processed image to the user on the front end.
 
-![api_outputs](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/pic2_rest_api.png)
+![api_outputs](screenshots/pic2_rest_api.png)
 
 ---
 
@@ -154,17 +154,17 @@ The License Manager currently has the following features:
 
 Down below, you can see a screenshot of the login page.
 
-![login](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/license_manager_pic1.png)
+![login](screenshots/license_manager_pic1.png)
 
 Here is a screenshot of the License Manager's Dashboard:
 
-![dashboard](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/license_manager_pic2.png)
+![dashboard](screenshots/license_manager_pic2.png)
 
 The user's first name and profile picture is dynamically generated based on who is logged in, as well as all license data in the dashboard.
 
 Down below, you can find a screenshot of the License Manager's Popup to purchase a new license or redeem an externally-obtained license.
 
-![Purchase Popup](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/license_manager_pic3.png)
+![Purchase Popup](screenshots/license_manager_pic3.png)
 
 More features will later be added such as:
 -	Improved security features
@@ -182,76 +182,24 @@ This software uses bitwise operations to cloak a given image within the image in
 
 Example of an image to hide:
 
-![image to hide](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/epiccar.jpg)
+![image to hide](screenshots/epiccar.jpg)
 
 Example of the container image in which you want to cloak your hidden image:
 
-![container image](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/basiccar.jpg)
+![container image](screenshots/basiccar.jpg)
 
 After running this software, you obtain a combined image which contains the hidden image, but it looks very much like the unmodified container image.
 
 Example of the combined image, which contains the hidden image:
 
-![combined image](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/composite-image-with-hidden-image.jpg)
+![combined image](screenshots/composite-image-with-hidden-image.jpg)
 
 You (or the party you are trying to send a hidden message to) can also run an image extractor in the software, which will extract the hidden image from the combined image.
 
 Example of the hidden image extracted from the combined image:
 
-![extracted image](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/hidden-image-extracted-from-composite.jpg)
+![extracted image](screenshots/hidden-image-extracted-from-composite.jpg)
 
 As you can see, the extracted hidden image has inherited a few visual artefacts.
 
 However, its depiction is still blatantly obvious, despite having been secretly cloaked in a completely different image.
-
----
-
-## TurboSpeed - Infinite Scrolling Racing Game
-
-[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/TurboSpeed/tree/master)
-
-This project was made with **Python (Library: Pygame)**.
-
-TurboSpeed is an engaging and addictive arcade-style infinite scrolling racing game developped with Python and the Pygame library.
-
-In TurboSpeed, the player controls a car speeding down a dynamically-scrolling road, with the objective of avoiding boulders for as long as possible. As time goes on, the car moves faster and faster, thus increasing the difficulty.
-
-Down below, you can see a screenshot of the gameplay.
-
-![gameplay](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/gameplay.png)
-
-Here is a screenshot of the TurboSpeed title screen.
-
-![title screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/title_screen.png)
-
-Down below, you can find a screenshot of the TurboSpeed game over screen (and my high score!).
-
-![game over screen](https://github.com/RealMaximeCaloz/TurboSpeed/blob/master/Game%20Screenshots/game_over_screen.png)
-
----
-
-# Text-Based Adventure Game Engine + Game: The Last Dragon Hunter
-
-[Click here to view this project's code repository](https://github.com/RealMaximeCaloz/The-Last-Dragon-Hunter)
-
-This project was made with C++ and the MSYS2 compiler.
-
-This project is a game engine that allows users to create text-based adventure games.
-
-The game engine allows players to interact with a text-based UI in order to progress through an adventure as the main character.
-
-The player can navigate to different rooms and areas, and their choices dictate how the game plays out.
-
-The game engine also comes coded with a battle engine, allowing for thrilling battle encounters with foes.
-
-As the player accumulates victories, they will level up, resulting in strengthened personal attributes.
-
-A game has also been created with this game engine. 
-
-The game is called The Last Dragon Hunter and follows the story of a 220 year old dragon hunter, left alone to fend off organized attacks by the repopulating dragons.
-
-Down below, you can see a screenshot of the game and game engine in action:
-
-![game](https://github.com/RealMaximeCaloz/Portfolio/blob/main/screenshots/the_last_dragon_hunter_gameplay_screenshot.png)
-
-The infrastructure in this c++ game engine offers text-based adventure game creators a flexible and relatively simple development experience, comprehensible even for non-developers.
